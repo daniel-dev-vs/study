@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class leftRotation {
+public class LeftRot {
 
     public static void main(String[] args) {
         List<Integer> arr = new ArrayList<>(Arrays.asList(1, 2, 3, 4, 5));
@@ -15,7 +15,7 @@ public class leftRotation {
     /*
      * Complete the 'rotateLeft' function below.
      *
-     * The function is expected to return an INTEGER_ARRAY.
+     * The function is expected to return an INTEGER_ARRAY.*
      * The function accepts following parameters:
      *  1. INTEGER d
      *  2. INTEGER_ARRAY arr
