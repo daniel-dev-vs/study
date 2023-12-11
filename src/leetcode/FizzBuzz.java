@@ -13,10 +13,10 @@ public class FizzBuzz {
     public static List<String> fizzBuzz(int n) {
         ArrayList<String> answer = new ArrayList<>();
 
-        for(int i = 0; i < n; i++){
-            int value = i+1;
-            boolean isFizz = value % 3 == 0;
-            boolean isBuzz = value % 5 == 0;
+        for(int i = 1; i <= n; i++){
+
+            boolean isFizz = i % 3 == 0;
+            boolean isBuzz = i % 5 == 0;
 
             if(isFizz && isBuzz ){
                 answer.add("FizzBuzz");
@@ -25,7 +25,7 @@ public class FizzBuzz {
             } else if(isBuzz){
                 answer.add("Buzz");
             }else{
-                answer.add(String.valueOf(value));
+                answer.add(String.valueOf(i));
             }
         }
 
